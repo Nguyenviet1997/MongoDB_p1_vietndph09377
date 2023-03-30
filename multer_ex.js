@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 const mongoose = require('mongoose');
 
-const uri = 'mongodb+srv://viet1997:viet1997@cluster0.fso1uhw.mongodb.net/?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://viet1997:viet2301@cluster0.fso1uhw.mongodb.net/SinhVienSchema?retryWrites=true&w=majority';
 
 const svModel = require('./svModel');
 
